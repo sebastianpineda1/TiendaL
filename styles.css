@@ -12,19 +12,26 @@ button {
 }
 
 .page-nav {
-    background-color: #2196F3;
+    background-color: red;
     border: 1px solid black;
     position: relative;
 }
 
 .page-nav h1 {
     margin: 20px;
+    color: red;
+    border-radius: 50%;
+    background: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    
 }
 
 .button-checkout {
     background-color: white;
     color: black;
-    border: 2px solid #008CBA; /* Blue */
+    border: 2px solid black; /* Blue */
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
@@ -47,7 +54,7 @@ button {
     padding: 2px 16px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-    background-color: white;
+    background-color: red;
 }
 
 .product-container:hover {
@@ -66,7 +73,7 @@ button {
 .button-add {
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50; /* Green */
+    border: 2px solid white; /* Green */
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
